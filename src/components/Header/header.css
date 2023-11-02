@@ -1,0 +1,43 @@
+
+.navbar-brand p{
+    font-size: 0.8rem;
+    margin-left: 55px;
+    font-weight: 500;
+    color: rgb(170, 166, 166);
+    font-style: italic;
+}
+.navbar-brand p span{
+    color: #ffc200;
+}
+form{
+    width: 600px;
+    height: 42px;
+    background-color: #f0f5ff;
+}
+.fa-magnifying-glass{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+.navbar-nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    font-size: 1.05rem;
+}
+.fa-store, .fa-user, .fa-cart-shopping{
+    opacity: 0.8;
+    font-size: 1.3rem;
+}
+.nav-link{
+    color: black;
+    font-size: 1.1;
+}

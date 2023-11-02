@@ -1,0 +1,60 @@
+.main{
+    width: 850px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+}
+.left{
+    width: 50%;
+    color: white;
+    padding: 20px;
+}
+.left p{
+    font-weight: lighter;
+    margin-top: 30px;
+}
+.left img{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.login{
+    width: 100%;
+    padding: 20px 5%;
+    background-color: white;
+}
+.login input{
+    width: 380px;
+    border: none;
+    background-color: transparent;
+    margin: 20px 0;
+    border-bottom: 1px solid black;
+}
+.login input:focus{
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.login p{
+    font-size: 0.8rem;
+}
+.login-btn{
+    margin-top: 30px;
+    width: 100%;
+    padding: 13px 0;
+    border: none;
+    font-weight: 700;
+    background-color: #fb641b;
+    color: white;
+}
+.btn-sec button:nth-child(3){
+    width: 100%;
+    padding: 13px 0;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgb(212, 211, 211);
+    border: none;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: blue;
+}
