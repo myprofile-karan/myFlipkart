@@ -58,3 +58,24 @@
     font-size: 0.9rem;
     color: blue;
 }
+
+
+@media (max-width: 868px){
+    .main{
+        width: 750px;
+        height: 500px;
+    } 
+}
+
+@media (max-width: 768px){
+    .main{
+        max-width: 650px;
+        height: 500px;
+    } 
+    .login input{
+        width: 220px;
+    }
+}
+
+
+

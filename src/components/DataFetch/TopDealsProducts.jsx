@@ -11,7 +11,7 @@ import {
 import "swiper/css";
 import "swiper/css/bundle";
 import { Link } from "react-router-dom";
-import ProductInfo from "../ProductInfo";
+import ProductInfo from "../ProductInfo/ProductInfo";
 import ApiLoader from "../ApiLoader";
 
 const TopDealsProducts = (props) => {
@@ -44,6 +44,23 @@ const TopDealsProducts = (props) => {
             slidesPerView={5}
             navigation
             loop
+            breakpoints={{
+              0:{
+                slidesPerView: 1,
+              },
+              400: {
+                // width: 576,
+                slidesPerView: 2,
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 3,
+              },
+              992: {
+                slidesPerView: 5,
+
+              }
+            }}
           >
             {data
               .filter(
@@ -55,6 +72,7 @@ const TopDealsProducts = (props) => {
               )
               .map((item) => {
                 return (
+
                   <SwiperSlide
                     key={item.id}
                     className="border border-secondary-50"

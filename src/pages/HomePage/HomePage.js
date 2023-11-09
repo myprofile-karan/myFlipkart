@@ -1,6 +1,5 @@
 import React from 'react'
-// import Header from '../components/Header'
-import Itemlist from '../../components/Itemlist'
+import Itemlist from '../../components/Itemlist/Itemlist'
 import Carousel from '../../components/swiper/BannerSwiper/BannerSwiper'
 import BankDiscount from '../../components/BankDIscount'
 import BannerDiscount from '../../components/BannerDiscount'

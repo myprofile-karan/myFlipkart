@@ -18,3 +18,12 @@ p{
     font-size: 0.9rem;
     font-weight: 600;
 }
+
+@media (max-width:640pc){
+    p{
+        font-size: 0.8rem;
+    }
+    .box a{
+        font-size: 0.8rem;
+    }
+}

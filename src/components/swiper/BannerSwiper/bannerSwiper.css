@@ -14,3 +14,11 @@
 .swiper-pagination-bullet-active{
     background-color: grey;
 }
+@media(max-width: 768px){
+    .swiper-button-prev:after, .swiper-button-next:after{
+        height: 40px;
+        padding: 20px 10px;
+        font-size: 0.6rem;
+        opacity: 0.8;
+    }
+}

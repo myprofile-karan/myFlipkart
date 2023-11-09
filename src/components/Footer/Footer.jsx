@@ -4,8 +4,8 @@ import './footer.css'
 const Footer = () => {
   return (
     <div className='box mt-5 container-fluid'>
-      <div className="row pb-2">
-        <div className="col-7 d-flex">
+      <div className="row gy-5 pb-2">
+        <div className="col-12 col-sm-12 col-md-7 col-lg-7 d-flex">
             <div className="col-3">
                 <h6>ABOUT</h6>
                 <p><a href="">Contact Us</a></p>
@@ -42,19 +42,20 @@ const Footer = () => {
                 <p><a href="">youtube</a></p>
             </div>
         </div>
-        <div className="col-5 border-start border-secondary d-flex">
-            <div className="col-6">
+        <div className="col-12 col-sm-12 col-md-5 col-lg-5 border-start border-secondary d-flex">
+            <div className="col-6 px-3">
             <h6>Mail Us:</h6>
             <p className='text-white'>Flipkart Internet Private Limited, Buildings Alyssa, Begonia & Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103,Karnataka, India</p>
             </div>
-            <div className="col-6">
+            <div className="col-6 px-3">
                 <h6>Registered Office Address:</h6>
                 <p className='text-white'>Flipkart Internet Private Limited,Buildings Alyssa, Begonia & Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103, Karnataka, India CIN : U51109KA2012PTC066107 Telephone: <a href="/">044-45614700</a></p>
             </div>
         </div>
       </div>
+      
       <div className="row border-top pt-4 border-secondary mt-5">
-        <div className="col-12 d-flex justify-content-between">
+        <div className="col-12 d-flex flex-wrap justify-content-between">
             <a href="" className='d-flex align-items-center gap-1'> 
                 <img src="./images/seller.svg" alt="" /> 
                 <span>Become a Seller</span>
