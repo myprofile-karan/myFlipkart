@@ -1,0 +1,10 @@
+@media (max-width:768px){
+    .imgSec{
+        margin: 20px 0;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .imgSec img{
+        width: 150px;
+    }
+}
