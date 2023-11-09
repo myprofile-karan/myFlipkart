@@ -7,10 +7,11 @@ const Header = () => {
     <>
         <nav className="navbar navbar-expand-lg bg-white">
           <div className="container-fluid">
-            <Link className="navbar-brand mt-2" to="/">
+
+            <Link onClick={()=> document.title="flipkart"} to="/" className="navbar-brand mt-2">
               <img
                 src="./images/logo.svg"
-                className="img img-fluid"
+                className="img"
                 width="140px"
                 alt="logo"
               />
@@ -48,7 +49,7 @@ const Header = () => {
               >
                 <i className="fa-solid fa-magnifying-glass fs-5 bg-transparent"></i>
                 <input
-                  className="form-control text-base form-control ms-0 search bg-transparent border-0 shadow-none"
+                  className="text-base form-control ms-0 search bg-transparent border-0 shadow-none"
                   type="search"
                   placeholder="Search for Products, Brand and More"
                   aria-label="Search"
@@ -64,7 +65,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <i className="fa-regular fa-user"></i>
-                  <Link to="/loginform" className="nav-link" href="/">
+                  <Link to="/loginform" onClick={()=>document.title="flipkart - Login"} className="nav-link" href="/">
                     Login
                   </Link>
                 </li>

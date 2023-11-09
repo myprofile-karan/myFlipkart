@@ -30,8 +30,10 @@ const Loginform = () => {
     // setPage(intialValue.signup)
     if (page.view === "login") {
       setPage(intialValue.signup);
+      document.title = "flipkart - Signup";
     } else {
       setPage(intialValue.login);
+      document.title = "flipkart - Login";
     }
   };
 
