@@ -27,3 +27,12 @@ p{
         font-size: 0.8rem;
     }
 }
+
+@media (max-width:3680pc){
+    p{
+        font-size: 0.8rem;
+    }
+    .box a{
+        font-size: 0.8rem;
+    }
+}

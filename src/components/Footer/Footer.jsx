@@ -73,8 +73,8 @@ const Footer = () => {
                 <span>Help Center</span>
             </a>
             <a href="" >2002-2023 Flipkart.com</a>
-            <img src="./images/footimg1.svg" alt="" />
-        </div>
+            <img src="./images/footimg1.svg" className='img img-fluid' alt="" />
+        </div>1
       </div>
     </div>
   )
